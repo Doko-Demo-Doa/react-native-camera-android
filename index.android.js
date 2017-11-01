@@ -12,6 +12,8 @@ var {
   DeviceEventEmitter
 } = React;
 
+import PropTypes from 'prop-types';
+
 var RN_CAMERA_REF = 'cameraview';
 
 var CameraView = React.createClass({
